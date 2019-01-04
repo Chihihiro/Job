@@ -16,6 +16,19 @@ class Job51Item(Item):
     local = Field()  # 工作地点
     salary = Field()  # 薪资
     welfare = Field()  # 福利
+    pass
+
+
+class niyuItem(Item):
+    book = Field()
+    word = Field()
+    hanyu = Field()
+    henmei = Field()
+    hinshi = Field()
+    # word = Field()
+    pass
+
+
 
 
 

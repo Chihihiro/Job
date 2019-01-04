@@ -9,7 +9,7 @@
 
 from scrapy import cmdline
 
-cmdline.execute("scrpay crawl info".split())
+cmdline.execute("scrpay crawl nihongo".split())
 
 
 

@@ -1,0 +1,784 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6c413d33-3953-4b0f-9e5f-5ea7f35710a1" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/RequestsBeautifulSoup$3_BeautifulSoup.coverage" NAME="3.BeautifulSoup的使用 Coverage Results" MODIFIED="1546061018413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Requests与BeautifulSoup" />
+    <SUITE FILE_PATH="coverage/RequessBeautifulSoup$1_requests.coverage" NAME="1.requests的使用 Coverage Results" MODIFIED="1546058228621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/RequestsBeautifulSoup$2_requests.coverage" NAME="2.requests的高级用法 Coverage Results" MODIFIED="1546059007849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Requests与BeautifulSoup" />
+    <SUITE FILE_PATH="coverage/RequestsBeautifulSoup$GetHtml.coverage" NAME="GetHtml Coverage Results" MODIFIED="1546061906706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Requests与BeautifulSoup/秦时明月手游" />
+    <SUITE FILE_PATH="coverage/RequestsBeautifulSoup$Spider.coverage" NAME="Spider Coverage Results" MODIFIED="1546062820212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Requests与BeautifulSoup/秦时明月手游" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Requests与BeautifulSoup/1.requests的基本使用.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="9" selection-start-line="9" selection-end-line="24" selection-end-column="11" />
+              <folding>
+                <element signature="e#196#211#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Requests与BeautifulSoup/2.requests的高级用法.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="14" selection-start-line="14" selection-end-line="47" selection-end-column="1" />
+              <folding>
+                <element signature="e#210#225#0" expanded="true" />
+                <element signature="e#250#3585#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Requests与BeautifulSoup/3.BeautifulSoup的使用.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
+              <folding>
+                <element signature="e#201#207#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Requests与BeautifulSoup/秦时明月手游/GetHtml.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="181">
+              <caret line="60" column="20" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
+              <folding>
+                <element signature="e#190#205#0" expanded="true" />
+                <element signature="e#246#3581#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../Requests与BeautifulSoup/秦时明月手游/Spider.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="429">
+              <caret line="47" column="11" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="11" />
+              <folding>
+                <element signature="e#189#218#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/1.requests.py" />
+        <option value="$PROJECT_DIR$/1.requests的使用.py" />
+        <option value="$PROJECT_DIR$/1.requests的基本使用.py" />
+        <option value="$PROJECT_DIR$/2.requests的高级用法.py" />
+        <option value="$PROJECT_DIR$/../Requests与BeautifulSoup/2.requests的高级用法.py" />
+        <option value="$PROJECT_DIR$/../Requests与BeautifulSoup/3.BeautifulSoup.py" />
+        <option value="$PROJECT_DIR$/../Requests与BeautifulSoup/西刺html/index.html.py" />
+        <option value="$PROJECT_DIR$/../Requests与BeautifulSoup/西刺html/index.html" />
+        <option value="$PROJECT_DIR$/../Requests与BeautifulSoup/3.BeautifulSoup的使用.py" />
+        <option value="$PROJECT_DIR$/../Requests与BeautifulSoup/秦时明月手游/GetHtml.py" />
+        <option value="$PROJECT_DIR$/../Requests与BeautifulSoup/秦时明月手游/Spider.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Requests与BeautifulSoup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Requests与BeautifulSoup" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Requests与BeautifulSoup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Requests与BeautifulSoup" type="462c0819:PsiDirectoryNode" />
+              <item name="秦时明月手游" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Requests与BeautifulSoup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Requests与BeautifulSoup" type="462c0819:PsiDirectoryNode" />
+              <item name="秦时明月手游" type="462c0819:PsiDirectoryNode" />
+              <item name="image" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.Spider">
+    <configuration default="true" type="DjangoTestsConfigurationType">
+      <module name="Requests与BeautifulSoup" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <module name="Requests与BeautifulSoup" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <module name="Requests与BeautifulSoup" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1.requests的使用" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Requests与BeautifulSoup" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\Requess与BeautifulSoup\1.requests的基本使用.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="2.requests的高级用法" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Requests与BeautifulSoup" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Requests与BeautifulSoup" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Requests与BeautifulSoup/2.requests的高级用法.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="3.BeautifulSoup的使用" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Requests与BeautifulSoup" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Requests与BeautifulSoup" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Requests与BeautifulSoup/3.BeautifulSoup的使用.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="GetHtml" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Requests与BeautifulSoup" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Requests与BeautifulSoup/秦时明月手游" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Requests与BeautifulSoup/秦时明月手游/GetHtml.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Spider" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Requests与BeautifulSoup" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Requests与BeautifulSoup/秦时明月手游" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Requests与BeautifulSoup/秦时明月手游/Spider.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="Requests与BeautifulSoup" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Python.FlaskServer" factoryName="Flask server">
+      <module name="Requests与BeautifulSoup" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="Requests与BeautifulSoup" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="Requests与BeautifulSoup" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <module name="Requests与BeautifulSoup" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Twisted Trial">
+      <module name="Requests与BeautifulSoup" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <module name="Requests与BeautifulSoup" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <module name="Requests与BeautifulSoup" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Spider" />
+        <item itemvalue="Python.GetHtml" />
+        <item itemvalue="Python.3.BeautifulSoup的使用" />
+        <item itemvalue="Python.2.requests的高级用法" />
+        <item itemvalue="Python.1.requests的使用" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6c413d33-3953-4b0f-9e5f-5ea7f35710a1" name="Default Changelist" comment="" />
+      <created>1546057635873</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1546057635873</updated>
+      <workItem from="1546057637404" duration="5602000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5602000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18958333" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32910052" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32910052" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://C:/Anaconda3/Lib/site-packages/chardet/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Requests与BeautifulSoup/西刺html/index.html.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Requests与BeautifulSoup/西刺html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="2889" column="7" selection-start-line="2889" selection-start-column="7" selection-end-line="2889" selection-end-column="7" />
+          <folding>
+            <element signature="e#1517#1521#0" expanded="true" />
+            <element signature="e#2399#2416#0" expanded="true" />
+            <element signature="e#2581#2598#0" expanded="true" />
+            <element signature="e#3114#3131#0" expanded="true" />
+            <element signature="e#3296#3313#0" expanded="true" />
+            <element signature="e#3734#3751#0" expanded="true" />
+            <element signature="e#3918#3935#0" expanded="true" />
+            <element signature="e#4451#4468#0" expanded="true" />
+            <element signature="e#4633#4650#0" expanded="true" />
+            <element signature="e#5172#5189#0" expanded="true" />
+            <element signature="e#5354#5371#0" expanded="true" />
+            <element signature="e#5886#5903#0" expanded="true" />
+            <element signature="e#6068#6085#0" expanded="true" />
+            <element signature="e#6604#6621#0" expanded="true" />
+            <element signature="e#6785#6802#0" expanded="true" />
+            <element signature="e#7313#7330#0" expanded="true" />
+            <element signature="e#7495#7512#0" expanded="true" />
+            <element signature="e#8032#8049#0" expanded="true" />
+            <element signature="e#8214#8231#0" expanded="true" />
+            <element signature="e#8748#8765#0" expanded="true" />
+            <element signature="e#8930#8947#0" expanded="true" />
+            <element signature="e#9467#9484#0" expanded="true" />
+            <element signature="e#9649#9666#0" expanded="true" />
+            <element signature="e#10185#10202#0" expanded="true" />
+            <element signature="e#10367#10384#0" expanded="true" />
+            <element signature="e#10904#10921#0" expanded="true" />
+            <element signature="e#11086#11103#0" expanded="true" />
+            <element signature="e#11620#11637#0" expanded="true" />
+            <element signature="e#11802#11819#0" expanded="true" />
+            <element signature="e#12340#12357#0" expanded="true" />
+            <element signature="e#12521#12538#0" expanded="true" />
+            <element signature="e#13056#13073#0" expanded="true" />
+            <element signature="e#13238#13255#0" expanded="true" />
+            <element signature="e#13775#13792#0" expanded="true" />
+            <element signature="e#13957#13974#0" expanded="true" />
+            <element signature="e#14491#14508#0" expanded="true" />
+            <element signature="e#14673#14690#0" expanded="true" />
+            <element signature="e#15210#15227#0" expanded="true" />
+            <element signature="e#15392#15409#0" expanded="true" />
+            <element signature="e#15922#15939#0" expanded="true" />
+            <element signature="e#16104#16121#0" expanded="true" />
+            <element signature="e#16641#16658#0" expanded="true" />
+            <element signature="e#16823#16840#0" expanded="true" />
+            <element signature="e#17356#17373#0" expanded="true" />
+            <element signature="e#17538#17555#0" expanded="true" />
+            <element signature="e#18074#18091#0" expanded="true" />
+            <element signature="e#18256#18273#0" expanded="true" />
+            <element signature="e#18787#18804#0" expanded="true" />
+            <element signature="e#18969#18986#0" expanded="true" />
+            <element signature="e#19505#19522#0" expanded="true" />
+            <element signature="e#19687#19704#0" expanded="true" />
+            <element signature="e#20222#20239#0" expanded="true" />
+            <element signature="e#20404#20421#0" expanded="true" />
+            <element signature="e#20941#20958#0" expanded="true" />
+            <element signature="e#21123#21140#0" expanded="true" />
+            <element signature="e#21658#21675#0" expanded="true" />
+            <element signature="e#21840#21857#0" expanded="true" />
+            <element signature="e#22376#22393#0" expanded="true" />
+            <element signature="e#22558#22575#0" expanded="true" />
+            <element signature="e#23091#23108#0" expanded="true" />
+            <element signature="e#23273#23290#0" expanded="true" />
+            <element signature="e#23812#23829#0" expanded="true" />
+            <element signature="e#23994#24011#0" expanded="true" />
+            <element signature="e#24527#24544#0" expanded="true" />
+            <element signature="e#24709#24726#0" expanded="true" />
+            <element signature="e#25247#25264#0" expanded="true" />
+            <element signature="e#25429#25446#0" expanded="true" />
+            <element signature="e#25964#25981#0" expanded="true" />
+            <element signature="e#26146#26163#0" expanded="true" />
+            <element signature="e#26683#26700#0" expanded="true" />
+            <element signature="e#26865#26882#0" expanded="true" />
+            <element signature="e#27401#27418#0" expanded="true" />
+            <element signature="e#27583#27600#0" expanded="true" />
+            <element signature="e#28121#28138#0" expanded="true" />
+            <element signature="e#28303#28320#0" expanded="true" />
+            <element signature="e#28835#28852#0" expanded="true" />
+            <element signature="e#29017#29034#0" expanded="true" />
+            <element signature="e#29553#29570#0" expanded="true" />
+            <element signature="e#29735#29752#0" expanded="true" />
+            <element signature="e#30270#30287#0" expanded="true" />
+            <element signature="e#30452#30469#0" expanded="true" />
+            <element signature="e#30988#31005#0" expanded="true" />
+            <element signature="e#31170#31187#0" expanded="true" />
+            <element signature="e#31705#31722#0" expanded="true" />
+            <element signature="e#31887#31904#0" expanded="true" />
+            <element signature="e#32424#32441#0" expanded="true" />
+            <element signature="e#32606#32623#0" expanded="true" />
+            <element signature="e#33137#33154#0" expanded="true" />
+            <element signature="e#33319#33336#0" expanded="true" />
+            <element signature="e#33856#33873#0" expanded="true" />
+            <element signature="e#34038#34055#0" expanded="true" />
+            <element signature="e#34570#34587#0" expanded="true" />
+            <element signature="e#34752#34769#0" expanded="true" />
+            <element signature="e#35289#35306#0" expanded="true" />
+            <element signature="e#35471#35488#0" expanded="true" />
+            <element signature="e#36002#36019#0" expanded="true" />
+            <element signature="e#36184#36201#0" expanded="true" />
+            <element signature="e#36722#36739#0" expanded="true" />
+            <element signature="e#36904#36921#0" expanded="true" />
+            <element signature="e#37436#37453#0" expanded="true" />
+            <element signature="e#37618#37635#0" expanded="true" />
+            <element signature="e#38150#38167#0" expanded="true" />
+            <element signature="e#38331#38348#0" expanded="true" />
+            <element signature="e#38865#38882#0" expanded="true" />
+            <element signature="e#39049#39066#0" expanded="true" />
+            <element signature="e#39586#39603#0" expanded="true" />
+            <element signature="e#39768#39785#0" expanded="true" />
+            <element signature="e#40300#40317#0" expanded="true" />
+            <element signature="e#40482#40499#0" expanded="true" />
+            <element signature="e#41013#41030#0" expanded="true" />
+            <element signature="e#41194#41211#0" expanded="true" />
+            <element signature="e#41728#41745#0" expanded="true" />
+            <element signature="e#41910#41927#0" expanded="true" />
+            <element signature="e#42446#42463#0" expanded="true" />
+            <element signature="e#42628#42645#0" expanded="true" />
+            <element signature="e#43160#43177#0" expanded="true" />
+            <element signature="e#43342#43359#0" expanded="true" />
+            <element signature="e#43881#43898#0" expanded="true" />
+            <element signature="e#44063#44080#0" expanded="true" />
+            <element signature="e#44598#44615#0" expanded="true" />
+            <element signature="e#44780#44797#0" expanded="true" />
+            <element signature="e#45317#45334#0" expanded="true" />
+            <element signature="e#45499#45516#0" expanded="true" />
+            <element signature="e#46032#46049#0" expanded="true" />
+            <element signature="e#46214#46231#0" expanded="true" />
+            <element signature="e#46750#46767#0" expanded="true" />
+            <element signature="e#46931#46948#0" expanded="true" />
+            <element signature="e#47468#47485#0" expanded="true" />
+            <element signature="e#47650#47667#0" expanded="true" />
+            <element signature="e#48187#48204#0" expanded="true" />
+            <element signature="e#48369#48386#0" expanded="true" />
+            <element signature="e#48903#48920#0" expanded="true" />
+            <element signature="e#49085#49102#0" expanded="true" />
+            <element signature="e#49624#49641#0" expanded="true" />
+            <element signature="e#49806#49823#0" expanded="true" />
+            <element signature="e#50339#50356#0" expanded="true" />
+            <element signature="e#50521#50538#0" expanded="true" />
+            <element signature="e#51059#51076#0" expanded="true" />
+            <element signature="e#51240#51257#0" expanded="true" />
+            <element signature="e#51679#51696#0" expanded="true" />
+            <element signature="e#51860#51877#0" expanded="true" />
+            <element signature="e#52404#52421#0" expanded="true" />
+            <element signature="e#52586#52603#0" expanded="true" />
+            <element signature="e#53120#53137#0" expanded="true" />
+            <element signature="e#53302#53319#0" expanded="true" />
+            <element signature="e#53839#53856#0" expanded="true" />
+            <element signature="e#54021#54038#0" expanded="true" />
+            <element signature="e#54556#54573#0" expanded="true" />
+            <element signature="e#54738#54755#0" expanded="true" />
+            <element signature="e#55280#55297#0" expanded="true" />
+            <element signature="e#55462#55479#0" expanded="true" />
+            <element signature="e#55996#56013#0" expanded="true" />
+            <element signature="e#56178#56195#0" expanded="true" />
+            <element signature="e#56716#56733#0" expanded="true" />
+            <element signature="e#56898#56915#0" expanded="true" />
+            <element signature="e#57431#57448#0" expanded="true" />
+            <element signature="e#57613#57630#0" expanded="true" />
+            <element signature="e#58148#58165#0" expanded="true" />
+            <element signature="e#58330#58347#0" expanded="true" />
+            <element signature="e#58866#58883#0" expanded="true" />
+            <element signature="e#59048#59065#0" expanded="true" />
+            <element signature="e#59586#59603#0" expanded="true" />
+            <element signature="e#59768#59785#0" expanded="true" />
+            <element signature="e#60302#60319#0" expanded="true" />
+            <element signature="e#60483#60500#0" expanded="true" />
+            <element signature="e#61017#61034#0" expanded="true" />
+            <element signature="e#61198#61215#0" expanded="true" />
+            <element signature="e#61733#61750#0" expanded="true" />
+            <element signature="e#61915#61932#0" expanded="true" />
+            <element signature="e#62453#62470#0" expanded="true" />
+            <element signature="e#62635#62652#0" expanded="true" />
+            <element signature="e#63169#63186#0" expanded="true" />
+            <element signature="e#63351#63368#0" expanded="true" />
+            <element signature="e#63887#63904#0" expanded="true" />
+            <element signature="e#64069#64086#0" expanded="true" />
+            <element signature="e#64602#64619#0" expanded="true" />
+            <element signature="e#64784#64801#0" expanded="true" />
+            <element signature="e#65323#65340#0" expanded="true" />
+            <element signature="e#65504#65521#0" expanded="true" />
+            <element signature="e#66039#66056#0" expanded="true" />
+            <element signature="e#66221#66238#0" expanded="true" />
+            <element signature="e#66759#66776#0" expanded="true" />
+            <element signature="e#66941#66958#0" expanded="true" />
+            <element signature="e#67475#67492#0" expanded="true" />
+            <element signature="e#67657#67674#0" expanded="true" />
+            <element signature="e#68195#68212#0" expanded="true" />
+            <element signature="e#68377#68394#0" expanded="true" />
+            <element signature="e#68912#68929#0" expanded="true" />
+            <element signature="e#69096#69113#0" expanded="true" />
+            <element signature="e#69632#69649#0" expanded="true" />
+            <element signature="e#69814#69831#0" expanded="true" />
+            <element signature="e#70346#70363#0" expanded="true" />
+            <element signature="e#70528#70545#0" expanded="true" />
+            <element signature="e#71066#71083#0" expanded="true" />
+            <element signature="e#71248#71265#0" expanded="true" />
+            <element signature="e#71786#71803#0" expanded="true" />
+            <element signature="e#71968#71985#0" expanded="true" />
+            <element signature="e#72504#72521#0" expanded="true" />
+            <element signature="e#72686#72703#0" expanded="true" />
+            <element signature="e#73219#73236#0" expanded="true" />
+            <element signature="e#73401#73418#0" expanded="true" />
+            <element signature="e#73628#73636#0" expanded="true" />
+            <element signature="e#73996#74004#0" expanded="true" />
+            <element signature="e#74183#74189#1" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Requests与BeautifulSoup/3.BeautifulSoup的使用.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="e#201#207#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Requests与BeautifulSoup/2.requests的高级用法.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" selection-start-line="14" selection-end-line="47" selection-end-column="1" />
+          <folding>
+            <element signature="e#210#225#0" expanded="true" />
+            <element signature="e#250#3585#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Requests与BeautifulSoup/1.requests的基本使用.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="9" selection-start-line="9" selection-end-line="24" selection-end-column="11" />
+          <folding>
+            <element signature="e#196#211#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Requests与BeautifulSoup/秦时明月手游/GetHtml.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="60" column="20" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
+          <folding>
+            <element signature="e#190#205#0" expanded="true" />
+            <element signature="e#246#3581#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Requests与BeautifulSoup/秦时明月手游/Spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="47" column="11" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="11" />
+          <folding>
+            <element signature="e#189#218#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
