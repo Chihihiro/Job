@@ -1,0 +1,142 @@
+JavaScript基础
+网页三大基础知识
+HTML: 专门编写网页内容的语言
+CSS :  专门设计网页样式的语言
+
+1.什么是JavaScript(js)
+JS:  专门编写网页交互的语言
+
+2.JS的发展史
+NetScape网景公司(Navigator) -- 客户端脚本语言
+JS创始人: 布兰登.艾奇 - Scheme语言(函数式编程)
+同一年Java出来了  Java: write once run any where
+对布兰登说: 做一门非常像Java的语言,但是要比Java简单的语言   -- JavaScript
+交给ECMA组织(欧洲计算机制造协会) -- ECMAScript标准 --> 定义了Js的核心语法
+
+MicroSoft
+收购了一家公司叫望远镜 -- IE
+做了一个JavaScript的克隆版 -- JScript
+
+网景公司倒闭 -- 代码全部开源  -- Mozzila FileFox(早期的Navigator)
+
+JavaScript组成
+1)ECMAScript标准
+2)DOM标准 W3C -- 专门操作网页内容的标准
+3)BOM -- 专门操作浏览器窗口的API
+
+语法:
+1.定义变量
+	1)var 变量名称 = 值;
+	2)var 变量名;  变量名=值;
+
+2)数据类型
+基本数据类型: 值存在变量本地
+	1.Number(整数和小数)
+	2.String(字符串)
+	3.Boolean(布尔值)
+	4.undefined(空): 如果不给变量赋值,js语言会自动用undefined给它赋值
+	5.null(空):  如果程序员想手动清除一个变量的内容,就可以用null清除
+
+数据类型转换(大坑)
+1.隐式转换: js语言会自动将数据类型转化成自己想要的
+	(1)如果做算术运算:会将数据自动转化成Number类型
+	(2)如果任意类型与字符串做+运算, +就是拼接字符串
+
+2.强制转换: 通过手动调用专门的函数去转换数据类型
+	1.任意类型转数字
+		1.Number(x)
+		2.parseInt(str) / parseFloat(str)
+	2.任意类型转字符串
+		String(x)
+		x.toString()
+	3.任意类型转Boolean
+		Boolean(x)  0,null,undefind,"",NaN --> false
+
+3.if语句
+if(条件){
+	...
+}else if(条件){
+	...
+}else{
+	...
+}
+
+4. switch case
+switch(条件){
+	case 值1:
+		代码
+		break;
+	case 值2:
+		代码
+		break;
+	case 值3:
+		代码
+		break;
+	case 值4:
+		代码
+		break;
+	default:
+		代码
+}
+
+5.循环
+循环变量 = 值;
+while(条件){
+	循环体
+}
+
+循环变量 = 值;
+do{
+	循环体
+}while(条件);
+
+for循环
+for(var 变量=值;条件;迭代变化){
+	循环体
+}
+
+数组
+var arr=[]
+
+函数
+function 函数名称(参数){
+	函数体
+}
+调用函数: 函数名称(参数)
+
+匿名函数自调:
++function(参数){
+	函数体
+}(参数)
+
+二、DOM(原生js)
+1.查找元素
+	1)document.getElementById("id名称")  -- 返回单个元素
+	2)document.getElementsByClassName("class名称")  -- 返回一个数组
+	3)document.getElementsByTagName("元素名称")  -- 返回一个数组
+	4)document.getElementsByName("name值")  -- 返回一个数组
+
+2.修改属性值
+节点.属性名=新值
+
+*只读: readonly
+*禁用: disabled
+
+三、DOM(第三方库: jQuery)
+1.第三方开发的极简化的DOM操作
+
+2.创建jQuery对象
+	1)直接创建
+		jQuery("选择器") ==> $("选择器")
+	2)如果已经有一个DOM对象的话
+		jQuery(原生DOM对象) ==> $(原生DOM对象)
+jQuery查找元素
+$("css选择器").attr("属性名称",属性值)
+
+jQuery提取文本
+$("css选择器").text()
+
+四、BOM
+拖拽滚动条
+window.scroll(x,y);
+
