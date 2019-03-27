@@ -16,7 +16,7 @@ import csv
 
 
 # 京东首页
-jd_url = "https://search.jd.com/Search?keyword=%E8%9B%8B%E7%99%BD%E7%B2%89&enc=utf-8&wq=%E8%9B%8B%E7%99%BD%E7%B2%89&pvid=dbe9d7802fb7414893a46fb1d1af1ab0"
+jd_url = "https://www.jd.com/"
 
 
 def get_html():
@@ -32,7 +32,6 @@ def get_html():
         # 拖动网页的js代码
         js = f"window.scroll(0,{i})"
         # 执行js脚本
-        sleep(2)
         browser.execute_script(js)
 
     # 获取html代码
@@ -52,7 +51,7 @@ def parse():
     selector = Selector(text=content)
     shop_list = selector.css("#J_more ul li")
 
-    csv_file = open("京东商品信息.csv", "w", encoding="gbk", newline="")
+    csv_file = open("京东商品信息.txt", "w", encoding="utf-8", newline="")
     writer = csv.writer(csv_file)
     for i, each in enumerate(shop_list):
         name = each.css("a::attr(title)").extract()
