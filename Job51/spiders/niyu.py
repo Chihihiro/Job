@@ -14,7 +14,6 @@
 # @Site :
 # @File : riyu.py
 # @Software: PyCharm
-print('riyu')
 import scrapy
 import re
 import json
@@ -42,19 +41,33 @@ class TencentpositionSpider(scrapy.Spider):
     # 爬虫名
     name = "nihongo"
     start_urls = ["http://jp.qsbdc.com/jpword/index.php"]
-    allowed_domains = ['jp.qsbdc.com']
+    # allowed_domains = ['jp.qsbdc.com']
+    custom_settings = {
+        "DOWNLOADER_MIDDLEWARES": {
+           'Job51.middlewares.Job51DownloaderMiddleware': 543,
+        },
+        "ITEM_PIPELINES": {
+            'Job51.pipelines.riyuPipeline': 300,
+        }
+    }
 
     def parse(self, response):
-        index_url = response.xpath('/html/body/div[5]/div[2]/table//tr/td[2]/a/@href').extract()
+        print("*"*100)
+        selector = Selector(response)
+        # print(response.body)
+        index_url = selector.xpath('/html/body/div[5]/div[2]/table/tbody/tr/td[2]/a/@href').extract()
+        print(index_url)
         for each in index_url:
             yield scrapy.Request(response.urljoin(each), callback=self.next_parse)
 
     def next_parse(self, response):
         """头页目录"""
+        print("头页目录")
         first_page = response.xpath('/html/body/div[5]/div[2]/table//tr/td[2]/a[1]/@href').extract()
         index_page = [response.urljoin(url) for url in first_page]
-        # print(index_page)
+        print(index_page)
         page = response.xpath('/html/body/div[5]/div[2]/table//tr[last()]/td/a/@href').extract()
+        print(page)
         if len(page):
             for i in page:
                 """加入其他页"""
@@ -68,13 +81,16 @@ class TencentpositionSpider(scrapy.Spider):
 
     def next_parse2(self, response):
         """其他页目录"""
+        print("其他页目录")
         first_page = response.xpath('/html/body/div[5]/div[2]/table//tr/td[2]/a[1]/@href').extract()
+        print(first_page)
         index_page = [response.urljoin(url) for url in first_page]
         for each in index_page:
             yield scrapy.Request(each, callback=self.last_parse)
 
     def last_parse(self, response):
         """万一有下一页"""
+        print('万一有下一页')
         next_page = response.xpath('/html/body/div[5]/div[2]/table//tr[last()]/td/a/@href').extract()
         if next_page:
             for each in next_page:
@@ -94,6 +110,7 @@ class TencentpositionSpider(scrapy.Spider):
         item['henmei'] = henmei
         item['hanyu'] = hanyu
         item['hinshi'] = hinshi
+        print(item)
         yield item
 
     def last_parse2(self, response):
