@@ -9,20 +9,20 @@
 
 from scrapy import Selector, Request
 from scrapy.spiders import CrawlSpider
-# from Job.items import JobItem
+from Job51.items import JobItem
 from copy import deepcopy
 
 
 class Job(CrawlSpider):
     name = "job"
     start_urls = [
-        "https://search.51job.com/list/020000,000000,0000,00,9,99,python,2,1.html?lang=c&stype=&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&providesalary=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare="
+        'https://search.51job.com/list/000000,000000,0000,00,9,99,python,2,1.html?lang=c&stype=&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&providesalary=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare='
     ]
 
-    custom_settings = {
-        "FEED_URI": "job.json",
-        "FEED_FORMAT": "JSON"
-    }
+    # custom_settings = {
+    #     "FEED_URI": "job.json",
+    #     "FEED_FORMAT": "JSON"
+    # }
 
     # 首页的解析函数
     def parse(self, response):
@@ -45,6 +45,7 @@ class Job(CrawlSpider):
             item["salary"] = salary
 
             detail_url = each.xpath('./p/span/a/@href').extract()[0]
+            print(detail_url)
 
             yield Request(detail_url, callback=self.detail_parse, meta={"index_data": deepcopy(item)})
 
@@ -54,7 +55,8 @@ class Job(CrawlSpider):
 
         selector = Selector(response)
         welfare = selector.xpath('/html/body/div[3]/div[2]/div[2]/div/div[1]/div/div/span/text()').extract()
+        print(welfare)
         item["welfare"] = ",".join(welfare)
-
+        print(item)
         yield item
 

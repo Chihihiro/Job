@@ -106,14 +106,16 @@ class Job51DownloaderMiddleware(object):
         #   installed downloader middleware will be called
         # 设置浏览器头部~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
         # request.headers["User-Agent"] = choice(user_agent)
+
         # print(request.headers["User-Agent"])
         # 设置代理ip~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
         # request.meta["proxy"] = "ip”
         # request.meta["proxy"] = "https://119.101.114.144:9999"
-        self.driver.get(request.url)
-        sleep(3)
-        html = self.driver.page_source
-        return HtmlResponse(url=request.url, body=html, status=200, encoding="utf-8", request=request)
+        # self.driver.get(request.url)
+        # sleep(3)
+        # html = self.driver.page_source
+        # return HtmlResponse(url=request.url, body=html, status=200, encoding="utf-8", request=request)
+        return None
 
     def process_response(self, request, response, spider):
         # Called with the response returned from the downloader.

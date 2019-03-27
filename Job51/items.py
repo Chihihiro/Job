@@ -29,6 +29,14 @@ class niyuItem(Item):
     pass
 
 
+class JobItem(Item):
+    job_name = Field()
+    company = Field()
+    salary = Field()
+    welfare = Field()
+    pass
+
+
 
 
 

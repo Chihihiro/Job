@@ -2,7 +2,7 @@
 
 from scrapy import cmdline
 
-cmdline.execute("scrpay crawl nihongo".split())
+cmdline.execute("scrpay crawl job".split())
 
 
 
