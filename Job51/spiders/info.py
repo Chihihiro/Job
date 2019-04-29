@@ -52,7 +52,6 @@ class Job(CrawlSpider):
     def detail_parse(self, response):
         # 接受item
         item = response.meta["index_data"]
-
         selector = Selector(response)
         welfare = selector.xpath('/html/body/div[3]/div[2]/div[2]/div/div[1]/div/div/span/text()').extract()
         print(welfare)

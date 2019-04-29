@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+ # -*- coding: utf-8 -*-
 
 # Define here the models for your spider middleware
 #
@@ -8,7 +8,7 @@
 from random import choice
 from scrapy import signals
 from scrapy.http import HtmlResponse
-from selenium.webdriver import PhantomJS
+from selenium.webdriver import Chrome
 from time import sleep
 
 # user_agent = [
@@ -78,14 +78,18 @@ class Job51SpiderMiddleware(object):
     def spider_opened(self, spider):
         spider.logger.info('Spider opened: %s' % spider.name)
 
+from selenium.webdriver.chrome.options import Options
 
 class Job51DownloaderMiddleware(object):
     # Not all methods need to be defined. If a method is not defined,
     # scrapy acts as if the downloader middleware does not modify the
     # passed objects.
-    def __init__(self):
-        self.driver = PhantomJS()
-        self.start_url = "http://jp.qsbdc.com/jpword/index.php"
+    # def __init__(self):
+        # self.option = Options()
+        # self.option.add_argument("--headless")
+        # self.driver = Chrome(options=self.option)  # 模拟浏览器
+        # self.driver = Chrome()  # 模拟浏览器
+        # self.start_url = "http://jp.qsbdc.com/jpword/index.php"
 
     @classmethod
     def from_crawler(cls, crawler):
