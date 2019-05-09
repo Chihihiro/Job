@@ -64,12 +64,25 @@ def for_columns(df):
     return df
 
 
+from Job51.items import *
+
+TABLE_DICT = {
+    Job51Item: '51job',
+    JobItem: 'job',
+
+}
+
+
 class riyuPipeline(object):
 
     def process_item(self, item, spider):
-        print(type(item))
-        df = pd.DataFrame(dict(item))
-        to_sql('nihongo', engine_crawl, df, type="update")
+        # print(type(item))
+        table = TABLE_DICT.get(type(item))
+        print("*"*100)
+        print(table)
+        # df = pd.DataFrame([dict(item)])
+        # clean_df = for_columns(df)
+        # to_sql('nihongo', engine_crawl, clean_df, type="update")
         return item
 
 

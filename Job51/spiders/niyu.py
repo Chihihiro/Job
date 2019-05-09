@@ -54,7 +54,7 @@ class TencentpositionSpider(scrapy.Spider):
     def parse(self, response):
         print("*"*100)
         selector = Selector(response)
-        # print(response.body)
+        print(response.body)
         index_url = selector.xpath('/html/body/div[5]/div[2]/table/tbody/tr/td[2]/a/@href').extract()
         print(index_url)
         for each in index_url:

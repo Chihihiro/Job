@@ -8,7 +8,7 @@
 # @Describe: 
 
 from scrapy import Selector
-from scrapy.spiders import CrawlSpider
+from scrapy.spiders import CrawlSpider, Spider
 from Job51.items import Job51Item
 from scrapy import Request
 from copy import deepcopy
@@ -22,6 +22,14 @@ class JobInfo(CrawlSpider):
         "https://search.51job.com/list/020000,000000,0000,00,9,99,python,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=",
     ]
     # 计数
+    custom_settings = {
+        "DOWNLOADER_MIDDLEWARES": {
+           'Job51.middlewares.Job51DownloaderMiddleware2': 543,
+        },
+        "ITEM_PIPELINES": {
+            'Job51.pipelines.riyuPipeline': 300,
+        }
+    }
     counts = 0
 
     # 解析函数
