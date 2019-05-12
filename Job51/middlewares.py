@@ -121,6 +121,8 @@ class Job51DownloaderMiddleware(object):
         self.driver.get(request.url)
         # sleep(3)
         html = self.driver.page_source
+        print('cookies')
+        print(self.driver.get_cookies())
         return HtmlResponse(url=request.url, body=html, status=200, encoding="utf-8", request=request)
         # return None
 

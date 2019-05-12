@@ -106,3 +106,7 @@ COOKIES_ENABLED = False
 #     "User-Agent": "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0;",
 #     # 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
 # }
+import os
+import sys
+BASE_DIR = os.path.dirname(os.path.abspath(os.path.dirname(__file__)))
+sys.path.insert(0, os.path.join(BASE_DIR, 'Job51'))
